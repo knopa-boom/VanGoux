@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .jstep {
+            display: inline-block;
+            width: 19%;
+            height: 300px;
+        }
+        
+        .jstep-1 {}
+        
+        .jstep-2 {}
+        
+        .jstep-3 {}
+        
+        .jstep-4 {}
+        
+        .jstep-5 {}
+        
+        .icon-step {
+            width: 127px;
+            height: 127px;
+            border-radius: 100%;
+            border: solid 8px rgb(228, 224, 224);
+            margin: auto;
+        }
+        
+        .istep-1,
+        .istep-2,
+        .istep-3,
+        .istep-4,
+        .istep-5 {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: inherit;
+        }
+        
+        .istep-1 {
+            background-image: url(images/icon/step-1.png);
+        }
+        
+        .istep-2 {
+            background-image: url(images/icon/step-2.png);
+        }
+        
+        .istep-3 {
+            background-image: url(images/icon/step-3.png);
+        }
+        
+        .istep-4 {
+            background-image: url(images/icon/step-4.png);
+        }
+        
+        .istep-5 {
+            background-image: url(images/icon/step-5.png);
+        }
+        
+        ul#menu li a {
+            display: block;
+            width: 130px;
+            text-align: center;
+            font-weight: bold;
+            float: left;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            background: #600;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="howjob">
+        <div class="text-center jstep jstep-1">
+            <p>Вы оставляете заявку</p>
+            <div class="icon-step istep-1"></div>
+        </div>
+        <div class="text-center jstep jstep-2">
+            <p>Связываемся с Вами и подключаем Вас к системе</p>
+            <div class="icon-step istep-2"></div>
+        </div>
+        <div class="text-center jstep jstep-3">
+            <p>Вы просматриваете заявки (стоимость просмотра заявки - 5 рублей)</p>
+            <div class="icon-step istep-3"></div>
+        </div>
+        <div class="text-center jstep jstep-4">
+            <p>Выкупаете интересные Вам заявки (стоимость получения УНИКАЛЬНОЙ заявки - 150 рублей)</p>
+            <div class="icon-step istep-4"></div>
+        </div>
+        <div class="text-center jstep jstep-5">
+            <p>Обрабатываете заявки (связываетесь с клиентами и доводите их до сделки)</p>
+            <div class="icon-step istep-5"></div>
+        </div>
+    </div>
+
+
+    <ul id="menu">
+        <li><a href="#">My</a></li>
+        <li><a href="#">Little</a></li>
+        <li><a href="#">Menu</a></li>
+    </ul>
+</body>
+
+</html>
